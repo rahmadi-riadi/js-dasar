@@ -68,16 +68,38 @@ function getEnemyPower(name) {
 
 }
 
-console.log(getEnemyPower("graze"))
-console.log(getEnemyPower("Kimaris Vidar!"))
-console.log(getEnemyPower("Eddy permana"))
-console.log(getEnemyPower("Eddy permana!"))
 
-console. log(
-    gundamBattle({
-        name: 'Mikazuki Augus',
-        mobilesuit: 'Barbatos Lupus Rex' ,
-        health: 100,
-        enemies: [ 'Graze' ,' Hashmal ','Kimaris Vidar! ','Graze Commander Type'],
-    })
-);
+let data = {
+  name: "Akihiro Altland",
+  mobileSuit: "Gusion Rebake Full City",
+  health: 100,
+  enemies: ["Graze", "Reginlaze", "Kimaris Vidar!", "Graze Ritter Commander Type!"],
+}; 
+
+
+
+// let data = {
+//   name: "Mikazuki Augus",
+//   mobileSuit: "Barbatos Lupus Rex",
+//   health: 100,
+//   enemies: ["Graze", "Hashmal", "Kimaris Vidar!", "Graze Commander Type"],
+// };
+
+let result = gundamBatt1e(data);
+
+console.log(result);
+
+
+// console.log(getEnemyPower("graze"))
+// console.log(getEnemyPower("Kimaris Vidar!"))
+// console.log(getEnemyPower("Eddy permana"))
+// console.log(getEnemyPower("Eddy permana!"))
+
+// console. log(
+//     gundamBattle({
+//         name: 'Mikazuki Augus',
+//         mobilesuit: 'Barbatos Lupus Rex' ,
+//         health: 100,
+//         enemies: [ 'Graze' ,' Hashmal ','Kimaris Vidar! ','Graze Commander Type'],
+//     })
+// );
